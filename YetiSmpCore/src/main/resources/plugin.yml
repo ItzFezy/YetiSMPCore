@@ -1,0 +1,16 @@
+name: YetiSmpCore
+version: '${project.version}'
+main: modding.yetismpcore.Main
+api-version: 1.20
+commands:
+  nick:
+    default: true
+    aliases: nickhider
+    description: Sets your nickname.
+    permission: yeti.nick
+    permission-message: You dont have access to the command /skin.
+  nickreset:
+    default: true
+    description: Sets your skin.
+    permission: yeti.nickreset
+    permission-message: You dont have access to the command /skin.
